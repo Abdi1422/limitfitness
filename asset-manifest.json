@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/limitfitness/static/css/main.870fae9b.css",
+    "main.js": "/limitfitness/static/js/main.08e7f081.js",
+    "static/media/aboutpic.jpg": "/limitfitness/static/media/aboutpic.13f6d00b4369a802ac13.jpg",
+    "static/media/aboutpic3.jpg": "/limitfitness/static/media/aboutpic3.959ad98b78830d63b583.jpg",
+    "static/media/contact.png": "/limitfitness/static/media/contact.b2e21bce2c272ff86f43.png",
+    "static/media/aboutpic2.jpg": "/limitfitness/static/media/aboutpic2.ea2c54ef7909709a1784.jpg",
+    "static/media/aboutpic2.png": "/limitfitness/static/media/aboutpic2.0bfcf8dc97bf90c4ecd9.png",
+    "static/media/chest.png": "/limitfitness/static/media/chest.b57f1060a815cbd4699a.png",
+    "static/media/abs3.png": "/limitfitness/static/media/abs3.fc2eefa9f3a31cd144cc.png",
+    "static/media/glu.png": "/limitfitness/static/media/glu.adecc77373e54f9895ef.png",
+    "static/media/back.png": "/limitfitness/static/media/back.30483ec489047b001cd9.png",
+    "static/media/hams.png": "/limitfitness/static/media/hams.18baf83942af314acd5a.png",
+    "static/media/neck.png": "/limitfitness/static/media/neck.65ddf6c10918b8ad7e5b.png",
+    "static/media/bic.png": "/limitfitness/static/media/bic.df885b8de833fbc16bad.png",
+    "index.html": "/limitfitness/index.html",
+    "main.870fae9b.css.map": "/limitfitness/static/css/main.870fae9b.css.map",
+    "main.08e7f081.js.map": "/limitfitness/static/js/main.08e7f081.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.870fae9b.css",
+    "static/js/main.08e7f081.js"
+  ]
+}
