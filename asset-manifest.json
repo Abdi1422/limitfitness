@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/limitfitness/static/css/main.870fae9b.css",
-    "main.js": "/limitfitness/static/js/main.08e7f081.js",
+    "main.js": "/limitfitness/static/js/main.de1319c0.js",
     "static/media/aboutpic.jpg": "/limitfitness/static/media/aboutpic.13f6d00b4369a802ac13.jpg",
     "static/media/aboutpic3.jpg": "/limitfitness/static/media/aboutpic3.959ad98b78830d63b583.jpg",
     "static/media/contact.png": "/limitfitness/static/media/contact.b2e21bce2c272ff86f43.png",
@@ -16,10 +16,10 @@
     "static/media/bic.png": "/limitfitness/static/media/bic.df885b8de833fbc16bad.png",
     "index.html": "/limitfitness/index.html",
     "main.870fae9b.css.map": "/limitfitness/static/css/main.870fae9b.css.map",
-    "main.08e7f081.js.map": "/limitfitness/static/js/main.08e7f081.js.map"
+    "main.de1319c0.js.map": "/limitfitness/static/js/main.de1319c0.js.map"
   },
   "entrypoints": [
     "static/css/main.870fae9b.css",
-    "static/js/main.08e7f081.js"
+    "static/js/main.de1319c0.js"
   ]
 }
