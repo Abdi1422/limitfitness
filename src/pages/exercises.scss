@@ -1,0 +1,12 @@
+.exersection{
+    color: white;
+    background: linear-gradient(to bottom right ,black 50%,rgb(255, 115, 0));
+}
+.exerh1{
+    font-size: 70px;
+}
+@media(max-width:415px){
+    .exerh1{
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,106 @@
+.contactsec{
+    background:linear-gradient(to bottom right ,black 50%,rgb(255, 115, 0));
+    color: white;
+    height: 100%;
+    padding: 76px 0px;
+}
+.contact{
+    color: white;
+    position: relative;
+    bottom: 300px;
+    font-size: 50px;
+}
+.imgdiv2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-height: 400px;
+}
+.contactimg{
+    width: 40%;
+    height: 300px;
+}
+.ul{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    margin: 50px auto;
+    gap: 50px;
+    font-size: 20px;
+}
+.gmail{
+    margin: 50px 0px;
+    width: 220px;
+    height: 80px;
+    font-size: 30px;
+}
+.infodivs{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0px auto;
+    gap: 20px;
+    ion-icon{
+        font-size: 40px;
+        transform: rotate(0deg);
+    }
+}
+.a{
+    text-decoration: none;
+}
+.contactinfo{
+    font-size: 25px;
+}
+.infodiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.iconbtn{
+    border-radius: 100px;
+    padding: 15px;
+    border: 0px;
+    cursor: pointer;
+}
+@media(max-width:1000px){
+    .ul{
+        width:50%;
+    }
+    .contactimg{
+        width: 80%;
+    }
+    .infodivs{
+        width: 50%;
+    }
+}
+@media(max-width:525px){
+    .contact{
+        font-size: 30px;
+    }
+    .ul{
+        font-size: 15px;
+        width: 80%;
+    }
+    .infodivs{
+        width: 80%;
+    }
+    .contactinfo{
+        font-size: 15px;
+    }
+    .iconbtn{
+        width: 40px;
+        height: 40px;
+        ion-icon{
+            position: relative;
+            right: 5px;
+            bottom: 4px;
+            font-size: 20px;
+        }
+    }
+    .infodiv{
+        gap: 8px;
+    }
+    .contactimg{
+        width: 100%;
+    }
+}

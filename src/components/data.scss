@@ -1,0 +1,42 @@
+.container{
+    max-height: 200px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.dataimgdiv{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    
+}
+.dataimg{
+    width: 220px;
+    height: 200px;
+    border: 1px solid black;
+}
+.datatext{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.dataname{
+    width: 25%;
+}
+.equip{
+    width: 25%;
+}
+.inst{
+    width: 100%;
+}
+@media(max-width:900px){
+    .dataname,.equip,.inst{
+        font-size: 10px;
+    }
+    .dataimg{
+        width: 100%;
+       height: 100px;
+    }
+}
+

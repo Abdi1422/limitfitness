@@ -1,0 +1,27 @@
+
+.h1div{
+    display: flex;
+    justify-content: center;
+}
+.h1{
+    font-size: 100px;
+    z-index: 7;
+    position: relative;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+@media(max-width:540px){
+    .h1{
+        font-size: 45px;
+    }
+    .imageslider{
+        position: relative;
+        top: -60px;
+    }
+}
