@@ -82,7 +82,7 @@ function App() {
       <BrowserRouter>
         <Navbar display={display} display2={display2} />
           <Routes>
-            <Route path='' element={<Home/>}/>
+            <Route path='/limitfitness/' element={<Home/>}/>
             <Route path='about' element={<About fetch={getexercisestype}/>}/>
             <Route path='exercises' element={<Exercises loop={loop} dataimg={image}/>}/>
             <Route path='news' element={<News setdisplay={setdisplay} setdisplay2={setdisplay2} />}/>      

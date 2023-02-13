@@ -24,7 +24,7 @@ const Navbar =({display,display2})=>{
           <ion-icon name="barbell-outline"></ion-icon>
         </div>   
         <div className='btns' id={showmenu ? "hidden": ""}>   
-          <Link to="" className='link'><Button sx={styles} color='inherit' variant='outlined' size='large' className='btn' onClick={closemenu}>Home</Button></Link>
+          <Link to="/limitfitness/" className='link'><Button sx={styles} color='inherit' variant='outlined' size='large' className='btn' onClick={closemenu}>Home</Button></Link>
           <Link to="about" className='link'><Button sx={styles} color='inherit' variant='outlined' size='large' className='btn' onClick={closemenu}>About</Button></Link>
           <Link to="exercises" className='link'><Button sx={styles} color='inherit' variant='outlined' size='large' className='btn' onClick={closemenu}>Exercises</Button></Link>
           <Link to="news" className='link'><Button sx={styles}  color='inherit' variant='outlined' size='large' className='btn' onClick={closemenu}>Login</Button></Link>
