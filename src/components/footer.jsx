@@ -1,6 +1,6 @@
 import './footer.scss'
+import {Link} from "react-router-dom"
 const Footer =()=>{
-    
     return(
         <footer className='footer'>
             <div className='columns'>
@@ -12,11 +12,11 @@ const Footer =()=>{
                     <div className='column'>
                         <h1 className='clo'>Pages</h1>
                         <div className='footerlinks'>
-                            <a href='http://localhost:3000/home' className='footerlink'>Home</a>
-                            <a href='http://localhost:3000/about' className='footerlink'>About</a>
-                            <a href='http://localhost:3000/exercises' className='footerlink'>Exercises</a>
-                            <a href='http://localhost:3000/news' className='footerlink'>Login</a>
-                            <a href='http://localhost:3000/contact' className='footerlink'>Contact</a>
+                            <Link to="/limitfitness/" className='footerlink'>Home</Link>
+                            <Link to="/about" className='footerlink'>About</Link>
+                            <Link to="/exercises" className='footerlink'>Exercises</Link>
+                            <Link to="/news" className='footerlink'>Login</Link>
+                            <Link to="/contact" className='footerlink'>Contact</Link>
                         </div>
                     </div>
                 </div>
