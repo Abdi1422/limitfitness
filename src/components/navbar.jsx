@@ -2,11 +2,13 @@ import './navbar.scss'
 import {Link} from "react-router-dom"
 import { Button } from '@mui/material';
 import { useState } from 'react';
+import logo from '../images/logo.png'
 
 const styles={
   backgroundColor:'black',
   color:'white',
   transition: "500ms all ",
+  border:"0px",
   "&:hover":{
     color:'black'
   }
@@ -21,7 +23,7 @@ const Navbar =({display,display2})=>{
       <nav className='navbar'>
         <div className='titlediv'>
           <h1 className='title'>Limit fitness</h1>
-          <ion-icon name="barbell-outline"></ion-icon>
+          <img className='logoimg' src={logo}  />
         </div>   
         <div className='btns' id={showmenu ? "hidden": ""}>   
           <Link to="/limitfitness/" className='link'><Button sx={styles} color='inherit' variant='outlined' size='large' className='btn' onClick={closemenu}>Home</Button></Link>

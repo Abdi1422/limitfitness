@@ -1,5 +1,6 @@
 .navwrapper{
     border-bottom: 2px solid black;
+    background-color: #FF6129;
 }
 .navbar{
     display: flex;
@@ -8,7 +9,7 @@
     width: 90%;
     margin: 0px auto;
     height: 100px;
-    
+    background-color:#FF6129 ;
 }
 .link{
     text-decoration: none;
@@ -68,10 +69,13 @@ ion-icon{
     border: 0px;
     height: 100%;
     width: 100px;
-    background-color: white;
+    background-color: #FF6129;
     ion-icon {
         font-size: 90px;
     }
+}
+.logoimg{
+    height: 80px;
 }
 @media(max-width:1350px){
     .burg{

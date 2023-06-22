@@ -3,20 +3,16 @@
     justify-content: center;
     min-height: 89.7vh;
     margin: 0px auto;
-    gap:1vw;
-    background:linear-gradient(to bottom right ,black 50%,rgb(255, 115, 0)) ;
-    color: white;
+    gap:1vw;  
 }
 .textdiv{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    color: white;
 }
 .text,.text1{
     cursor: pointer;
     transition: .5s;
-    color: white;
     &:hover{
         transform: scale(1.1);
     }

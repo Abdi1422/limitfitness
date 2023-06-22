@@ -1,6 +1,6 @@
 .container{
     max-height: 200px;
-    border: 1px solid white;
+    border: 1px solid black;
     display: flex;
     flex-direction: row;
     overflow: hidden;
@@ -8,8 +8,7 @@
 .dataimgdiv{
     width: 25%;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 .dataimg{
     width: 220px;
@@ -36,7 +35,7 @@
     }
     .dataimg{
         width: 100%;
-       height: 100px;
+        height: 100px;
     }
 }
 
